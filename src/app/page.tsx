@@ -14,24 +14,26 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <section className="relative w-full h-[70vh] md:h-[90vh]">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            data-ai-hint={heroImage.imageHint}
-            fill
-            className="object-cover"
-            priority
-          />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
-        <div className="relative container max-w-screen-2xl h-full flex flex-col items-start justify-center text-left">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl font-headline font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+      <section className="relative w-full pt-14">
+        <div className="relative h-[60vh] md:h-[80vh]">
+          {heroImage && (
+            <Image
+              src={heroImage.imageUrl}
+              alt={heroImage.description}
+              data-ai-hint={heroImage.imageHint}
+              fill
+              className="object-cover object-top"
+              priority
+            />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+        </div>
+        <div className="container max-w-screen-2xl">
+          <div className="relative -mt-32 md:-mt-48 lg:-mt-64 z-10 max-w-3xl">
+            <h1 className="text-4xl font-headline font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl [text-shadow:0_2px_4px_rgba(0,0,0,0.5)]">
               Unlock Your Voice, Unleash Your Talent
             </h1>
-            <p className="mt-6 text-lg text-foreground/80 md:text-xl">
+            <p className="mt-6 text-lg text-white/90 md:text-xl [text-shadow:0_1px_2px_rgba(0,0,0,0.4)]">
               Join Arohi Rhythms to embark on a transformative musical journey. Our expert instructors are here to guide you every step of the way.
             </p>
             <div className="mt-8 flex gap-4">
