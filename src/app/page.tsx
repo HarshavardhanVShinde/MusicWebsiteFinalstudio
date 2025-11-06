@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col">
-      <section className="relative w-full h-[60vh] md:h-[80vh]">
+      <section className="relative w-full h-[70vh] md:h-[90vh]">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
@@ -25,8 +25,8 @@ export default function Home() {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-        <div className="relative container max-w-screen-2xl h-full flex flex-col items-start justify-end pb-12 md:pb-24 text-left">
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
+        <div className="relative container max-w-screen-2xl h-full flex flex-col items-start justify-center text-left">
           <div className="max-w-3xl">
             <h1 className="text-4xl font-headline font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
               Unlock Your Voice, Unleash Your Talent
