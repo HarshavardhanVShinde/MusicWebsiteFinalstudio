@@ -2,51 +2,51 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A person playing a guitar in a warmly lit room.",
-      "imageUrl": "https://images.unsplash.com/photo-1535740560992-3a223ab7ef78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtdXNpYyUyMGxlc3NvbnxlbnwwfHx8fDE3NjI0MDY2MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "music lesson"
+      "description": "A person playing a sitar in a warmly lit, traditional Indian setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1621323348981-64104927515c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBjbGFzc2ljYWwlMjBtdXNpY3xlbnwwfHx8fDE3NjI0MTQ1MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian music"
     },
     {
       "id": "class-hindustani",
-      "description": "A traditional Indian musical instrument.",
+      "description": "A traditional Indian musical instrument, the tanpura.",
       "imageUrl": "https://images.unsplash.com/photo-1646765444015-5881f0fab3e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBtdXNpY3xlbnwwfHx8fDE3NjIzNDIyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian music"
     },
     {
-      "id": "class-western",
-      "description": "A modern microphone in a recording studio.",
-      "imageUrl": "https://images.unsplash.com/photo-1620653616528-7da9a2005478?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2luZ2luZyUyMHN0dWRpb3xlbnwwfHx8fDE3NjI0MDY2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "singing studio"
-    },
-    {
       "id": "class-bollywood",
-      "description": "A group of people singing together joyfully.",
-      "imageUrl": "https://images.unsplash.com/photo-1745852738233-bbd0df06c279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaG9pciUyMHNpbmdpbmd8ZW58MHx8fHwxNzYyNDA2NjE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "choir singing"
+      "description": "A vintage microphone, representing classic Bollywood songs.",
+      "imageUrl": "https://images.unsplash.com/photo-1599818426338-b02c8b417e65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aW50YWdlJTIwbWljcm9waG9uZXxlbnwwfHx8fDE3NjI0MTQ5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage microphone"
     },
     {
-      "id": "class-guitar",
-      "description": "A person playing an acoustic guitar.",
-      "imageUrl": "https://images.unsplash.com/photo-1547357812-4a336d835928?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwbGF5aW5nJTIwZ3VpdGFyfGVufDB8fHx8MTc2MjM5NTQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "playing guitar"
+      "id": "class-sitar",
+      "description": "A close-up of a person playing a sitar.",
+      "imageUrl": "https://images.unsplash.com/photo-1612225330842-3a3c1a3e7c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaXRhcnxlbnwwfHx8fDE3NjI0MTQ3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sitar instrument"
+    },
+    {
+      "id": "class-tabla",
+      "description": "A pair of Indian tabla drums.",
+      "imageUrl": "https://images.unsplash.com/photo-1594191029851-6895316a7e93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YWJsYXxlbnwwfHx8fDE3NjI0MTQ4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tabla drums"
     },
     {
       "id": "instructor-one",
-      "description": "Portrait of a friendly music instructor.",
-      "imageUrl": "https://images.unsplash.com/photo-1732612712493-e81f9f9efc6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMzc4NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "teacher portrait"
+      "description": "Portrait of a friendly Indian woman, a music instructor.",
+      "imageUrl": "https://images.unsplash.com/photo-1623389146429-041d8a156e75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjQxNTA5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian woman"
     },
     {
       "id": "instructor-two",
-      "description": "Portrait of a smiling female music instructor.",
-      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYyMzk4Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman smiling"
+      "description": "Portrait of a smiling female music instructor in traditional attire.",
+      "imageUrl": "https://images.unsplash.com/photo-1542624321-651a9e693b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjB3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYyNDE1MjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
     },
     {
       "id": "instructor-three",
-      "description": "Portrait of an experienced male music instructor.",
-      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMzEzMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
+      "description": "Portrait of an experienced male music instructor in traditional Indian clothing.",
+      "imageUrl": "https://images.unsplash.com/photo-1615985011388-d3f33f4a02c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI0MTUyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian man"
     }
   ]
 }

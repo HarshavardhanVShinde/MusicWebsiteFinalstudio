@@ -8,7 +8,7 @@ export type Instructor = {
 export type ClassInfo = {
   id: number;
   slug: string;
-  name: string;
+  name:string;
   description: string;
   longDescription: string;
   schedule: string;
@@ -24,16 +24,16 @@ export const instructors: Instructor[] = [
     imageId: 'instructor-one',
   },
   {
-    id: 2,
-    name: 'Ben Carter',
-    bio: 'A graduate of Berklee College of Music, Ben specializes in contemporary Western vocals, from pop to jazz, focusing on performance and expression.',
-    imageId: 'instructor-three',
-  },
-  {
     id: 3,
     name: 'Chloe Das',
     bio: 'Chloe is a versatile singer and performer with a love for Bollywood music. Her energetic classes make learning popular songs fun and engaging.',
     imageId: 'instructor-two',
+  },
+  {
+    id: 4,
+    name: 'Rohan Joshi',
+    bio: 'A master of stringed instruments, Rohan has toured the world sharing the soulful sounds of the Sitar and Santoor.',
+    imageId: 'instructor-three',
   },
 ];
 
@@ -49,16 +49,6 @@ export const classes: ClassInfo[] = [
     imageId: 'class-hindustani',
   },
   {
-    id: 2,
-    slug: 'western-vocal-techniques',
-    name: 'Western Vocal Techniques',
-    description: 'Explore contemporary singing styles, from pop and rock to R&B and jazz.',
-    longDescription: 'This course covers a wide range of Western vocal styles. You will learn about vocal health, pitch control, harmonizing, and performance skills. We focus on helping you find your unique voice and building confidence to perform on stage.',
-    schedule: 'Tue & Thu, 7:30 PM - 8:30 PM',
-    instructorId: 2,
-    imageId: 'class-western',
-  },
-  {
     id: 3,
     slug: 'bollywood-singing',
     name: 'Bollywood Singing',
@@ -70,12 +60,22 @@ export const classes: ClassInfo[] = [
   },
   {
     id: 4,
-    slug: 'acoustic-guitar-basics',
-    name: 'Acoustic Guitar Basics',
-    description: 'Learn the fundamentals of acoustic guitar, from chords to strumming.',
-    longDescription: 'Our beginner guitar course is designed to get you playing your favorite songs in no time. We cover basic chords, strumming patterns, and music theory in a fun and supportive environment. No prior experience is necessary!',
-    schedule: 'Sat, 11:00 AM - 12:00 PM',
-    instructorId: 2,
-    imageId: 'class-guitar',
+    slug: 'sitar-essentials',
+    name: 'Sitar Essentials',
+    description: 'Begin your journey with the enchanting sounds of the sitar.',
+    longDescription: 'This beginner-friendly course introduces you to the sitar, one of the most iconic instruments of Indian classical music. You will learn the basics of holding the instrument, fingerings, and playing simple melodies.',
+    schedule: 'Tue, 5:00 PM - 6:00 PM',
+    instructorId: 4,
+    imageId: 'class-sitar',
+  },
+  {
+    id: 5,
+    slug: 'tabla-rhythms',
+    name: 'Tabla Rhythms',
+    description: 'Discover the rhythmic heartbeat of Indian music with the tabla.',
+    longDescription: 'Learn the fundamental bols (strokes) and taals (rhythmic cycles) of the tabla. This course is designed for absolute beginners and provides a solid foundation for accompanying and solo performance.',
+    schedule: 'Thu, 6:00 PM - 7:00 PM',
+    instructorId: 1,
+    imageId: 'class-tabla',
   },
 ];

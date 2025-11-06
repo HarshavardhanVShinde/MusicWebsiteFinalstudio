@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Open Sans', 'sans-serif'],
-        headline: ['Raleway', 'sans-serif'],
+        body: ['Lora', 'serif'],
+        headline: ['Prata', 'serif'],
         code: ['monospace'],
       },
       colors: {
