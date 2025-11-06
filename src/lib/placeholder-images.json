@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A person playing a guitar in a warmly lit room.",
+      "imageUrl": "https://images.unsplash.com/photo-1535740560992-3a223ab7ef78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtdXNpYyUyMGxlc3NvbnxlbnwwfHx8fDE3NjI0MDY2MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music lesson"
+    },
+    {
+      "id": "class-hindustani",
+      "description": "A traditional Indian musical instrument.",
+      "imageUrl": "https://images.unsplash.com/photo-1646765444015-5881f0fab3e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBtdXNpY3xlbnwwfHx8fDE3NjIzNDIyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "indian music"
+    },
+    {
+      "id": "class-western",
+      "description": "A modern microphone in a recording studio.",
+      "imageUrl": "https://images.unsplash.com/photo-1620653616528-7da9a2005478?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2luZ2luZyUyMHN0dWRpb3xlbnwwfHx8fDE3NjI0MDY2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "singing studio"
+    },
+    {
+      "id": "class-bollywood",
+      "description": "A group of people singing together joyfully.",
+      "imageUrl": "https://images.unsplash.com/photo-1745852738233-bbd0df06c279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaG9pciUyMHNpbmdpbmd8ZW58MHx8fHwxNzYyNDA2NjE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "choir singing"
+    },
+    {
+      "id": "class-guitar",
+      "description": "A person playing an acoustic guitar.",
+      "imageUrl": "https://images.unsplash.com/photo-1547357812-4a336d835928?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwbGF5aW5nJTIwZ3VpdGFyfGVufDB8fHx8MTc2MjM5NTQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "playing guitar"
+    },
+    {
+      "id": "instructor-one",
+      "description": "Portrait of a friendly music instructor.",
+      "imageUrl": "https://images.unsplash.com/photo-1732612712493-e81f9f9efc6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyMzc4NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teacher portrait"
+    },
+    {
+      "id": "instructor-two",
+      "description": "Portrait of a smiling female music instructor.",
+      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYyMzk4Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "instructor-three",
+      "description": "Portrait of an experienced male music instructor.",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjIzMzEzMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    }
+  ]
 }
