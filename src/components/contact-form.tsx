@@ -55,16 +55,20 @@ export function ContactForm() {
     setIsLoading(true);
     
     try {
-      // Send to our server-side proxy to avoid CORS issues when calling Formspark
+      // Send directly to Formspark (they support browser submissions). This avoids a serverless
+      // function and simplifies deployment to platforms like Cloudflare Pages.
+      const FORMSPARK_URL = "https://submit-form.com/kQr8f17hi";
+
       const formData = {
         ...values,
         _redirect: window.location.href,
       };
 
-      const response = await fetch("/api/contact", {
+      const response = await fetch(FORMSPARK_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Accept": "application/json",
         },
         body: JSON.stringify(formData),
       });
