@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: true, message: "Form submitted (dev mode)" });
     }
 
-    // In production, send to Formspark
+    // In production, send to Formspark 
     try {
       const res = await fetch(FORMSPARK_URL, {
         method: "POST",
