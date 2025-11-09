@@ -3,8 +3,8 @@
     {
       "id": "hero-background",
       "description": "A girl singing on a dark stage with a single spotlight.",
-      "imageUrl": "https://images.unsplash.com/photo-1559798651-d49a3a14b533?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "singer stage"
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1920&q=80",
+      "imageHint": "A girl singing passionately in a dark, moody environment with dramatic lighting, professional photography, blurred background, bokeh effect"
     },
     {
       "id": "class-hindustani",
@@ -15,13 +15,13 @@
     {
       "id": "class-bollywood",
       "description": "A vintage microphone, representing classic Bollywood songs.",
-      "imageUrl": "https://images.unsplash.com/photo-1599818426338-b02c8b417e65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aW50YWdlJTIwbWljcm9waG9uZXxlbnwwfHx8fDE3NjI0MTQ5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1080&q=80",
       "imageHint": "vintage microphone"
     },
     {
       "id": "class-sitar",
       "description": "A close-up of a person playing a sitar.",
-      "imageUrl": "https://images.unsplash.com/photo-1612225330842-3a3c1a3e7c4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaXRhcnxlbnwwfHx8fDE3NjI0MTQ3Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1080&q=80",
       "imageHint": "sitar instrument"
     },
     {

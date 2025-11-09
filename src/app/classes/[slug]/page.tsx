@@ -40,12 +40,12 @@ export default function ClassDetailPage({ params }: Props) {
   const instructorImage = instructor ? PlaceHolderImages.find(img => img.id === instructor.imageId) : undefined;
 
   return (
-    <div className="py-12 md:py-24">
-      <div className="container max-w-screen-2xl">
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
-          <div className="md:col-span-2">
+    <div className="min-h-screen pt-24 pb-16 md:pt-32 md:pb-24">
+      <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
+          <div className="md:col-span-2 space-y-6 md:space-y-8">
             {classImage && (
-              <div className="aspect-video rounded-lg overflow-hidden mb-8 shadow-lg">
+              <div className="aspect-video rounded-xl md:rounded-2xl overflow-hidden shadow-2xl border border-border/50">
                 <Image
                   src={classImage.imageUrl}
                   alt={classImage.description}
@@ -56,54 +56,56 @@ export default function ClassDetailPage({ params }: Props) {
                 />
               </div>
             )}
-            <h1 className="text-4xl font-headline font-bold tracking-tight sm:text-5xl mb-4">
-              {classInfo.name}
-            </h1>
-            <p className="text-lg text-muted-foreground mb-8">
-              {classInfo.longDescription}
-            </p>
+            <div className="space-y-4 md:space-y-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-headline font-bold tracking-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+                {classInfo.name}
+              </h1>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                {classInfo.longDescription}
+              </p>
+            </div>
           </div>
 
-          <div className="md:col-span-1 space-y-8">
-            <Card className="shadow-lg">
+          <div className="md:col-span-1 space-y-6">
+            <Card className="shadow-xl border-border/50 hover:shadow-2xl transition-shadow">
               <CardHeader>
-                <CardTitle className="font-headline">Class Details</CardTitle>
+                <CardTitle className="font-headline text-xl">Class Details</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4 text-muted-foreground">
-                <div className="flex items-center gap-4">
-                  <Calendar className="h-5 w-5 text-primary" />
-                  <span>{classInfo.schedule}</span>
+              <CardContent className="space-y-4">
+                <div className="flex items-center gap-3 md:gap-4 p-3 rounded-lg bg-primary/5">
+                  <Calendar className="h-5 w-5 text-primary flex-shrink-0" />
+                  <span className="text-sm md:text-base text-muted-foreground">{classInfo.schedule}</span>
                 </div>
                 {instructor && (
-                    <div className="flex items-center gap-4">
-                        <User className="h-5 w-5 text-primary" />
-                        <span>With {instructor.name}</span>
+                    <div className="flex items-center gap-3 md:gap-4 p-3 rounded-lg bg-primary/5">
+                        <User className="h-5 w-5 text-primary flex-shrink-0" />
+                        <span className="text-sm md:text-base text-muted-foreground">With {instructor.name}</span>
                     </div>
                 )}
               </CardContent>
             </Card>
 
             {instructor && (
-              <Card className="shadow-lg">
+              <Card className="shadow-xl border-border/50 hover:shadow-2xl transition-shadow">
                 <CardHeader>
-                  <CardTitle className="font-headline">Your Instructor</CardTitle>
+                  <CardTitle className="font-headline text-xl">Your Instructor</CardTitle>
                 </CardHeader>
-                <CardContent className="flex items-center gap-4">
+                <CardContent className="flex items-center gap-3 md:gap-4">
                   {instructorImage && (
-                    <Avatar className="h-16 w-16">
+                    <Avatar className="h-16 w-16 md:h-20 md:w-20 border-2 border-primary/20 flex-shrink-0">
                       <AvatarImage src={instructorImage.imageUrl} alt={instructor.name} data-ai-hint={instructorImage.imageHint}/>
                       <AvatarFallback>{instructor.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                   )}
                   <div>
-                    <h4 className="font-semibold">{instructor.name}</h4>
-                    <p className="text-sm text-muted-foreground">{instructor.bio}</p>
+                    <h4 className="font-semibold text-base md:text-lg">{instructor.name}</h4>
+                    <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{instructor.bio}</p>
                   </div>
                 </CardContent>
               </Card>
             )}
 
-            <Button size="lg" className="w-full" asChild>
+            <Button size="lg" className="w-full shadow-lg hover:shadow-xl transition-all hover:scale-105" asChild>
                 <Link href="/contact">Enroll Now</Link>
             </Button>
           </div>

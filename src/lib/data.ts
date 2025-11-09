@@ -19,21 +19,9 @@ export type ClassInfo = {
 export const instructors: Instructor[] = [
   {
     id: 1,
-    name: 'Aria Sharma',
-    bio: 'With over 15 years of experience in Hindustani classical music, Aria brings a deep passion and understanding of traditional vocal techniques.',
+    name: 'Shreya Sadhu',
+    bio: 'Over 15 years of experience in singing and performing, with 7 years dedicated to classical music. Passionate about nurturing talent and sharing the beauty of Indian classical traditions.',
     imageId: 'instructor-one',
-  },
-  {
-    id: 3,
-    name: 'Chloe Das',
-    bio: 'Chloe is a versatile singer and performer with a love for Bollywood music. Her energetic classes make learning popular songs fun and engaging.',
-    imageId: 'instructor-two',
-  },
-  {
-    id: 4,
-    name: 'Rohan Joshi',
-    bio: 'A master of stringed instruments, Rohan has toured the world sharing the soulful sounds of the Sitar and Santoor.',
-    imageId: 'instructor-three',
   },
 ];
 
