@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { NextResponse } from "next/server";
 
 const FORMSPARK_URL = "https://submit-form.com/kQr8f17hi";
