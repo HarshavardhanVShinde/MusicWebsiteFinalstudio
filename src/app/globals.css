@@ -1,34 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .musical-card {
+    @apply bg-gradient-to-br from-card via-card to-musical-cream/30;
+    @apply border border-border/50;
+    @apply shadow-lg hover:shadow-xl;
+    @apply transition-all duration-300;
+    @apply backdrop-blur-sm;
+  }
+  
+  .musical-button {
+    @apply bg-gradient-to-r from-primary to-primary/80;
+    @apply hover:from-primary/90 hover:to-primary;
+    @apply shadow-lg hover:shadow-xl;
+    @apply transition-all duration-300;
+    @apply transform hover:scale-105;
+  }
+  
+  .section-title {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-bold;
+    @apply bg-gradient-to-r from-foreground via-musical-bronze to-foreground;
+    @apply bg-clip-text text-transparent;
+    @apply musical-ornament;
+  }
+}
+
 @layer base {
   :root {
-    --background: 35 69% 96%;
-    --foreground: 24 9.8% 10%;
+    --background: 45 15% 97%;
+    --foreground: 25 15% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 24 9.8% 10%;
+    --card-foreground: 25 15% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 24 9.8% 10%;
-    --primary: 15 75% 45%;
+    --popover-foreground: 25 15% 15%;
+    --primary: 35 85% 45%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 35 40% 92%;
-    --secondary-foreground: 24 9.8% 10%;
-    --muted: 35 50% 96%;
-    --muted-foreground: 24 5% 45%;
-    --accent: 38 90% 80%;
-    --accent-foreground: 24 9.8% 10%;
+    --secondary: 45 25% 94%;
+    --secondary-foreground: 25 15% 15%;
+    --muted: 45 20% 96%;
+    --muted-foreground: 25 8% 50%;
+    --accent: 42 100% 85%;
+    --accent-foreground: 25 15% 15%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 24 5.9% 90%;
-    --input: 24 5.9% 90%;
-    --ring: 15 75% 45%;
+    --border: 45 15% 88%;
+    --input: 45 15% 88%;
+    --ring: 35 85% 45%;
+    --musical-gold: 45 95% 65%;
+    --musical-bronze: 25 45% 55%;
+    --musical-cream: 45 35% 95%;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --radius: 0.75rem;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
@@ -39,25 +69,28 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 24 9.8% 10%;
-    --foreground: 0 0% 98%;
-    --card: 24 9.8% 10%;
-    --card-foreground: 0 0% 98%;
-    --popover: 24 9.8% 10%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 15 75% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 24 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 24 3.7% 15.9%;
-    --muted-foreground: 24 5% 64.9%;
-    --accent: 24 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --background: 25 15% 8%;
+    --foreground: 45 15% 95%;
+    --card: 25 15% 10%;
+    --card-foreground: 45 15% 95%;
+    --popover: 25 15% 10%;
+    --popover-foreground: 45 15% 95%;
+    --primary: 45 85% 55%;
+    --primary-foreground: 25 15% 8%;
+    --secondary: 25 10% 15%;
+    --secondary-foreground: 45 15% 95%;
+    --muted: 25 10% 15%;
+    --muted-foreground: 45 8% 65%;
+    --accent: 42 80% 25%;
+    --accent-foreground: 45 15% 95%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 24 3.7% 15.9%;
-    --input: 24 3.7% 15.9%;
-    --ring: 15 75% 55%;
+    --border: 25 10% 20%;
+    --input: 25 10% 20%;
+    --ring: 45 85% 55%;
+    --musical-gold: 45 85% 55%;
+    --musical-bronze: 25 35% 45%;
+    --musical-cream: 25 15% 12%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
@@ -80,6 +113,35 @@
   }
   body {
     @apply bg-background text-foreground;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--musical-gold) / 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(var(--primary) / 0.02) 0%, transparent 50%);
+  }
+  
+  .musical-ornament {
+    position: relative;
+  }
+  
+  .musical-ornament::before {
+    content: "♪";
+    position: absolute;
+    top: -0.5rem;
+    left: -1rem;
+    font-size: 1.5rem;
+    color: hsl(var(--musical-gold));
+    opacity: 0.3;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .musical-ornament::after {
+    content: "♫";
+    position: absolute;
+    bottom: -0.5rem;
+    right: -1rem;
+    font-size: 1.2rem;
+    color: hsl(var(--musical-bronze));
+    opacity: 0.3;
+    animation: float 3s ease-in-out infinite reverse;
   }
 }
 
@@ -98,6 +160,35 @@
   }
   to {
     transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes musical-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
   }
 }
 
@@ -125,4 +216,60 @@
 
 .duration-1000 {
   animation-duration: 1s;
+}
+
+.musical-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.musical-pulse {
+  animation: musical-pulse 2s ease-in-out infinite;
+}
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--foreground)) 25%,
+    hsl(var(--musical-gold)) 50%,
+    hsl(var(--foreground)) 75%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.ornamental-border {
+  position: relative;
+}
+
+.ornamental-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    hsl(var(--musical-gold)),
+    transparent
+  );
+}
+
+.ornamental-border::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    hsl(var(--musical-bronze)),
+    transparent
+  );
 }

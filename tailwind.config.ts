@@ -10,8 +10,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Lora', 'serif'],
-        headline: ['Prata', 'serif'],
+        body: ['Crimson Text', 'Lora', 'serif'],
+        headline: ['Playfair Display', 'Prata', 'serif'],
+        display: ['Cormorant Garamond', 'Playfair Display', 'serif'],
         code: ['monospace'],
       },
       colors: {
@@ -65,6 +66,11 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
+        musical: {
+          gold: 'hsl(var(--musical-gold))',
+          bronze: 'hsl(var(--musical-bronze))',
+          cream: 'hsl(var(--musical-cream))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -92,6 +98,9 @@ export default {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'float': 'float 4s ease-in-out infinite',
+        'musical-pulse': 'musical-pulse 2s ease-in-out infinite',
+        'shimmer': 'shimmer 3s ease-in-out infinite',
       },
     },
   },
