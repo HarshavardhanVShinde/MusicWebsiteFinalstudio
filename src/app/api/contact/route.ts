@@ -9,7 +9,6 @@ export async function POST(req: Request) {
 
     // In development, just log and return success to avoid external network calls
     if (IS_DEVELOPMENT) {
-      // eslint-disable-next-line no-console
       console.log("Development form submission:", body);
       return new Response(JSON.stringify({ success: true, message: "Form submitted (dev mode)" }), {
         status: 200,
@@ -33,7 +32,6 @@ export async function POST(req: Request) {
       headers: { "Content-Type": res.headers.get("content-type") || "application/json" },
     });
   } catch (err) {
-    // eslint-disable-next-line no-console
     console.error("Form API error:", err);
     return new Response(JSON.stringify({ success: false, error: "Internal server error" }), {
       status: 500,

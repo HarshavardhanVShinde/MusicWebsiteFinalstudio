@@ -117,7 +117,7 @@ export default function OnlineClassesPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "The online classes are so convenient! I can learn classical singing from my home in Bangalore. The recordings help me practice daily."
+                  &ldquo;The online classes are so convenient! I can learn classical singing from my home in Bangalore. The recordings help me practice daily.&rdquo;
                 </p>
                 <p className="font-semibold">— Priya Sharma, Software Engineer</p>
               </CardContent>
@@ -131,7 +131,7 @@ export default function OnlineClassesPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "Shreya ma'am gives such personalised attention even in online sessions. My raga understanding has improved tremendously in just 3 months."
+                  &ldquo;Shreya ma&rsquo;am gives such personalised attention even in online sessions. My raga understanding has improved tremendously in just 3 months.&rdquo;
                 </p>
                 <p className="font-semibold">— Rahul Desai, College Student</p>
               </CardContent>
@@ -145,7 +145,7 @@ export default function OnlineClassesPage() {
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "As a working mother, online classes are perfect. I can learn during my lunch break. The flexibility is amazing!"
+                  &ldquo;As a working mother, online classes are perfect. I can learn during my lunch break. The flexibility is amazing!&rdquo;
                 </p>
                 <p className="font-semibold">— Anjali Mehta, Marketing Manager</p>
               </CardContent>
@@ -157,7 +157,7 @@ export default function OnlineClassesPage() {
           <CardContent className="p-8 md:p-12 text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-headline font-bold">Start Learning from Home Today</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Book your free trial online class. Experience our teaching methodology and see if it's the right fit for you. No credit card required.
+              Book your free trial online class. Experience our teaching methodology and see if it&rsquo;s the right fit for you. No credit card required.
             </p>
             <div className="space-y-4">
               <p className="text-2xl font-bold text-primary">₹2,500/month • 8 sessions • 45 mins each</p>

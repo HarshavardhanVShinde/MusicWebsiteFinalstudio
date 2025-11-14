@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-musical-cream/50 via-background to-musical-cream/30 relative overflow-hidden">
+    <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24 bg-gradient-to-b from-musical-cream/50 via-background to-musical-cream/30 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 text-8xl text-musical-gold musical-float">♪</div>
         <div className="absolute top-40 right-20 text-6xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="absolute bottom-20 right-1/3 text-5xl text-musical-bronze musical-float" style={{animationDelay: '3s'}}>♫</div>
       </div>
       <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-4xl mx-auto space-y-16">
+        <div className="max-w-4xl mx-auto space-y-10 md:space-y-12 lg:space-y-16">
           <div className="text-center space-y-8">
             <div className="ornamental-border pb-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-wide bg-gradient-to-r from-musical-gold via-primary to-musical-bronze bg-clip-text text-transparent shimmer-text mb-6">
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <CardContent className="p-10 md:p-14 relative z-10">
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-body text-center">
-                  We believe that music is more than just sound — it's the <span className="text-musical-gold font-semibold">sacred rhythm of life</span>, the <span className="text-musical-bronze font-semibold">divine voice of emotions</span>, and the <span className="text-primary font-semibold">eternal bridge that connects souls</span>. At Arohi Rhythms, we honor the ancient tradition of <strong>guru-shishya parampara</strong> to guide you on your musical odyssey.
+                  We believe that music is more than just sound — it&rsquo;s the <span className="text-musical-gold font-semibold">sacred rhythm of life</span>, the <span className="text-musical-bronze font-semibold">divine voice of emotions</span>, and the <span className="text-primary font-semibold">eternal bridge that connects souls</span>. At Arohi Rhythms, we honor the ancient tradition of <strong>guru-shishya parampara</strong> to guide you on your musical odyssey.
                 </p>
               </div>
             </CardContent>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed font-body">
-                    Experience the sacred art through <em className="text-musical-gold">intimate in-person sessions</em>, blessed online darshans, or harmonious hybrid formats — honoring your life's rhythm and devotional practice.
+                    Experience the sacred art through <em className="text-musical-gold">intimate in-person sessions</em>, blessed online darshans, or harmonious hybrid formats — honoring your life&rsquo;s rhythm and devotional practice.
                   </p>
                 </CardContent>
               </Card>
@@ -120,7 +120,7 @@ export default function AboutPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground leading-relaxed font-body">
-                    From young <em className="text-musical-bronze">musical saplings</em> to mature seekers, we honor the eternal truth that music transcends age. The divine melody calls to every soul, at every stage of life's journey.
+                    From young <em className="text-musical-bronze">musical saplings</em> to mature seekers, we honor the eternal truth that music transcends age. The divine melody calls to every soul, at every stage of life&rsquo;s journey.
                   </p>
                 </CardContent>
               </Card>
@@ -168,7 +168,7 @@ export default function AboutPage() {
             <CardContent className="p-10 md:p-14 text-center space-y-8 relative z-10">
               <Award className="h-20 w-20 text-musical-gold mx-auto musical-pulse" />
               <h3 className="text-3xl md:text-4xl font-display font-bold bg-gradient-to-r from-musical-gold via-primary to-musical-bronze bg-clip-text text-transparent">
-                Let Your Soul's Melody Resonate
+                Let Your Soul&rsquo;s Melody Resonate
               </h3>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto font-body">
                 Join our sacred musical <em className="text-musical-bronze font-semibold">sangam</em> at Arohi Rhythms and awaken the divine musician within your soul. Whether you aspire to grace the concert stage or simply wish to commune with the eternal beauty of <strong className="text-primary">classical music</strong>, we are honored to guide your spiritual and artistic journey.

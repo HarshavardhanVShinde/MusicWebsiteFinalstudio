@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-musical-cream/60 via-background to-musical-cream/40 relative overflow-hidden">
+    <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24 bg-gradient-to-br from-musical-cream/60 via-background to-musical-cream/40 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-16 text-8xl text-musical-gold musical-float">♪</div>
         <div className="absolute bottom-32 right-20 text-7xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
@@ -22,7 +22,7 @@ export default function ContactPage() {
         <div className="absolute bottom-1/4 left-1/3 text-5xl text-musical-bronze musical-float" style={{animationDelay: '3s'}}>♫</div>
       </div>
       <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-start">
           <div className="space-y-8 md:space-y-10">
             <div className="space-y-6">
               <div className="ornamental-border pb-6">
@@ -30,7 +30,7 @@ export default function ContactPage() {
                 <div className="w-28 h-1 bg-gradient-to-r from-transparent via-musical-gold to-transparent mb-6"></div>
               </div>
               <p className="text-muted-foreground text-lg md:text-xl leading-relaxed font-body">
-                We are blessed to hear from every soul drawn to the <em className="text-musical-bronze font-semibold">sacred art of classical music</em>! Whether you're ready to begin your divine journey or seek guidance on our offerings, we welcome you with open hearts and musical spirits.
+                We are blessed to hear from every soul drawn to the <em className="text-musical-bronze font-semibold">sacred art of classical music</em>! Whether you&rsquo;re ready to begin your divine journey or seek guidance on our offerings, we welcome you with open hearts and musical spirits.
               </p>
             </div>
             <div className="space-y-8">

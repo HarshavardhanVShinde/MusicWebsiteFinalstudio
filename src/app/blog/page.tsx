@@ -84,9 +84,9 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 md:pt-32 md:pb-24">
+    <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24">
       <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-4xl mx-auto mb-12 space-y-6">
+        <div className="text-center max-w-4xl mx-auto mb-8 md:mb-10 lg:mb-12 space-y-4 md:space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold tracking-tight">
             Classical Music Blog
           </h1>
@@ -95,7 +95,7 @@ export default function BlogPage() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {blogPosts.map((post) => (
             <Card key={post.slug} className="overflow-hidden group transition-all hover:shadow-2xl hover:-translate-y-1 border-border/50">
               <CardHeader>

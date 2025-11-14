@@ -47,6 +47,12 @@
       "description": "Portrait of an experienced male music instructor in traditional Indian clothing.",
       "imageUrl": "https://images.unsplash.com/photo-1615985011388-d3f33f4a02c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI0MTUyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "indian man"
+    },
+    {
+      "id": "saraswati-maa",
+      "description": "Goddess Saraswati, the deity of knowledge, music, arts, wisdom and learning in Hinduism.",
+      "imageUrl": "https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?w=800&q=80",
+      "imageHint": "Goddess Saraswati with veena, divine feminine energy, patron of music and arts, white saree, lotus, sacred Hindu deity"
     }
   ]
 }

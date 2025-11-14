@@ -11,8 +11,8 @@ export function Footer() {
         <div className="absolute bottom-12 right-20 text-5xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
         <div className="absolute top-20 right-1/3 text-4xl text-musical-gold musical-float" style={{animationDelay: '4s'}}>♪</div>
       </div>
-      <div className="container max-w-screen-2xl py-16 md:py-20 px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+      <div className="container max-w-screen-2xl py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
           <div className="flex flex-col gap-4 lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 group">
               <div className="relative w-12 h-12 bg-transparent">
@@ -83,7 +83,7 @@ export function Footer() {
           </div>
         </div>
         
-        <div className="mt-16 pt-8 border-t border-musical-gold/20">
+        <div className="mt-10 md:mt-12 lg:mt-16 pt-6 md:pt-8 border-t border-musical-gold/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground text-center md:text-left font-body">
               &copy; {new Date().getFullYear()} Arohi Rhythms. All rights reserved. <span className="text-musical-gold">♪</span> Preserving Classical Traditions <span className="text-musical-bronze">♫</span>
