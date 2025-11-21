@@ -7,11 +7,71 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   metadataBase: new URL('https://arohirhythms.in'),
   title: {
-    default: 'Arohi Rhythms | Classical Singing Classes & Online Music Lessons from Home',
-    template: '%s | Arohi Rhythms',
+    default: 'Arohi Rhythms | Best Music Classes Online & Kolkata | Classical Singing Lessons',
+    template: '%s | Arohi Rhythms Music Classes',
   },
-  description: 'Learn Hindustani classical singing with personalised coaching. Online & offline music classes from home. Expert vocal training in ragas, talas. Book free trial class.',
-  keywords: ['classical singing classes', 'Hindustani vocal training', 'online music classes', 'learn music from home', 'Indian classical music', 'vocal lessons', 'raga training', 'tala practice', 'guru shishya parampara'],
+  description: 'Arohi Rhythms - Best music classes in Kolkata & online. Learn Hindustani classical singing with expert gurus. Raga, tala, vocal training. Free trial class. Top music academy India.',
+  keywords: [
+    // Brand & Core Keywords
+    'Arohi Rhythms',
+    'Arohi Rhythms music classes',
+    'classes',
+    'music classes',
+    'singing classes',
+    'classical music classes',
+    'classical singing classes',
+
+    // Location-Based Keywords (Critical for Local SEO)
+    'music classes Kolkata',
+    'singing classes Kolkata',
+    'best music classes Kolkata',
+    'music academy Kolkata',
+    'music school Kolkata',
+    'classical music classes Kolkata',
+    'Hindustani music classes Kolkata',
+    'music classes in Kolkata',
+    'music classes near me',
+    'music classes West Bengal',
+    'music classes India',
+
+    // Online Classes Keywords
+    'online music classes',
+    'online singing classes',
+    'online music classes India',
+    'learn music online',
+    'learn music from home',
+    'online vocal training',
+    'virtual music classes',
+
+    // Hindustani Classical Specific
+    'Hindustani classical music',
+    'Hindustani vocal training',
+    'Hindustani classical singing',
+    'Indian classical music',
+    'raga training',
+    'raga classes',
+    'tala practice',
+    'tala classes',
+    'guru shishya parampara',
+
+    // General Music Education
+    'vocal lessons',
+    'vocal training online',
+    'learn singing online',
+    'singing lessons',
+    'music school',
+    'music academy',
+    'best music academy',
+    'music teacher',
+    'singing teacher',
+
+    // Service-Based Keywords
+    'free trial music class',
+    'music classes for beginners',
+    'advanced music classes',
+    'personalized music coaching',
+    'one on one music classes'
+  ],
   authors: [{ name: 'Arohi Rhythms' }],
   creator: 'Arohi Rhythms',
   publisher: 'Arohi Rhythms',
@@ -19,14 +79,23 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://arohirhythms.in',
-    siteName: 'Arohi Rhythms',
-    title: 'Arohi Rhythms | Classical Singing Classes & Online Music Lessons',
-    description: 'Learn Hindustani classical singing with personalised coaching. Book your free trial class today.',
+    siteName: 'Arohi Rhythms Music Classes',
+    title: 'Arohi Rhythms | Best Music Classes Kolkata & Online | Classical Singing Lessons',
+    description: 'Top music classes in Kolkata & online. Learn Hindustani classical singing at Arohi Rhythms. Expert gurus, raga & tala training. Free trial class available.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Arohi Rhythms - Best Music Classes in Kolkata & Online',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Arohi Rhythms | Classical Singing Classes',
-    description: 'Learn Hindustani classical singing with expert guidance',
+    title: 'Arohi Rhythms | Best Music Classes Kolkata & Online',
+    description: 'Top music classes in Kolkata & online. Learn Hindustani classical singing. Free trial class.',
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -41,6 +110,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://arohirhythms.in',
+  },
+  verification: {
+    google: 'your-google-site-verification-code', // TODO: Replace with actual code from Google Search Console
   },
 };
 

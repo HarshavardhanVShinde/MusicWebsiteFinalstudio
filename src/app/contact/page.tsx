@@ -17,9 +17,9 @@ export default function ContactPage() {
     <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24 bg-gradient-to-br from-musical-cream/60 via-background to-musical-cream/40 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-16 text-8xl text-musical-gold musical-float">♪</div>
-        <div className="absolute bottom-32 right-20 text-7xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
-        <div className="absolute top-1/2 right-1/4 text-6xl text-musical-gold musical-float" style={{animationDelay: '4s'}}>♪</div>
-        <div className="absolute bottom-1/4 left-1/3 text-5xl text-musical-bronze musical-float" style={{animationDelay: '3s'}}>♫</div>
+        <div className="absolute bottom-32 right-20 text-7xl text-musical-bronze musical-float" style={{ animationDelay: '2s' }}>♫</div>
+        <div className="absolute top-1/2 right-1/4 text-6xl text-musical-gold musical-float" style={{ animationDelay: '4s' }}>♪</div>
+        <div className="absolute bottom-1/4 left-1/3 text-5xl text-musical-bronze musical-float" style={{ animationDelay: '3s' }}>♫</div>
       </div>
       <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-start">
@@ -44,12 +44,12 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-center gap-4 md:gap-6 p-4 md:p-6 rounded-2xl bg-gradient-to-r from-musical-bronze/10 via-primary/5 to-musical-gold/10 hover:from-musical-bronze/20 hover:to-musical-gold/20 transition-all group musical-card">
-                <div className="flex-shrink-0 musical-pulse" style={{animationDelay: '1s'}}>
+                <div className="flex-shrink-0 musical-pulse" style={{ animationDelay: '1s' }}>
                   <Phone className="h-7 w-7 md:h-8 md:w-8 text-primary" />
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs text-musical-gold font-semibold mb-1 font-body">Divine Connection</span>
-                  <a href="tel:+1234567890" className="text-base md:text-lg hover:text-musical-bronze transition-colors font-medium font-body">(123) 456-7890</a>
+                  <a href="tel:+919474010622" className="text-base md:text-lg hover:text-musical-bronze transition-colors font-medium font-body">+91 9474010622</a>
                 </div>
               </div>
             </div>

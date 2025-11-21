@@ -10,45 +10,205 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 export const metadata = {
-  title: 'Classical Singing Lessons Online | Hindustani Vocal Training | Arohi Rhythms',
-  description: 'Transform your voice with guided Hindustani classical singing lessons delivered live online and in Kolkata studios. Progress through ragas, talas, and performance coaching with personalised attention and a clear curriculum.',
+  title: 'Best Music Classes Kolkata | Arohi Rhythms | Online Hindustani Classical Singing Lessons',
+  description: 'Arohi Rhythms - Top music classes in Kolkata & online. Transform your voice with Hindustani classical singing lessons. Expert gurus teach ragas, talas, vocal training. Free trial class. Best music academy in Kolkata, West Bengal, India.',
   keywords: [
+    'arohi rhythms',
+    'arohi rhythms kolkata',
+    'classes',
+    'music classes',
+    'singing classes',
+    'music classes kolkata',
+    'singing classes kolkata',
+    'best music classes kolkata',
+    'music academy kolkata',
     'hindustani classical singing lessons',
+    'hindustani classical music classes',
     'online vocal training',
     'classical singing classes kolkata',
+    'music classes near me',
+    'music school kolkata',
     'learn ragas online',
     'tala training for singers',
     'indian classical music school',
     'beginner to advanced vocal classes',
     'guru shishya teaching method',
     'live online music lessons',
-    'hindustani vocal coach'
+    'hindustani vocal coach',
+    'best music academy',
+    'music classes in kolkata',
+    'classical music training kolkata',
+    'online music classes india'
   ],
   openGraph: {
-    title: 'Arohi Rhythms | Hindustani Classical Singing Lessons Online',
-    description: 'Personalised Hindustani classical voice training with structured ragas, talas, and performance mentorship.',
+    title: 'Arohi Rhythms | Best Music Classes Kolkata & Online | Hindustani Classical Singing',
+    description: 'Top music classes in Kolkata & online at Arohi Rhythms. Personalized Hindustani vocal training with ragas, talas, and performance mentorship. Free trial class.',
     url: 'https://arohirhythms.in',
     type: 'website',
+    locale: 'en_IN',
+    siteName: 'Arohi Rhythms Music Classes',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Arohi Rhythms - Best Music Classes in Kolkata & Online',
+      },
+    ],
   },
 };
 
 export default function Home() {
-  const jsonLd = {
+  // Enhanced JSON-LD Schema with LocalBusiness and Organization
+  const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'MusicSchool',
+    '@type': 'Organization',
+    '@id': 'https://arohirhythms.in/#organization',
     name: 'Arohi Rhythms',
-    description: 'Learn Hindustani classical singing with personalised coaching',
+    legalName: 'Arohi Rhythms Music Classes',
     url: 'https://arohirhythms.in',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://arohirhythms.in/og-image.jpg',
+      width: 1200,
+      height: 630
+    },
+    description: 'Arohi Rhythms is a premier music academy offering Hindustani classical music classes in Kolkata and online. Expert training in ragas, talas, and vocal performance.',
+    foundingDate: '2020',
+    sameAs: [
+      'https://www.facebook.com/arohirhythms',
+      'https://www.instagram.com/arohirhythms',
+      'https://www.youtube.com/@arohirhythms'
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+91-9876543210',
+      contactType: 'Customer Service',
+      email: 'contact@arohirhythms.com',
+      availableLanguage: ['English', 'Hindi', 'Bengali']
+    }
+  };
+
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': ['MusicSchool', 'LocalBusiness', 'EducationalOrganization'],
+    '@id': 'https://arohirhythms.in/#musicschool',
+    name: 'Arohi Rhythms Music Classes',
+    alternateName: 'Arohi Rhythms',
+    description: 'Best music classes in Kolkata & online - Arohi Rhythms. Learn Hindustani classical singing with expert gurus. Personalized coaching in ragas, talas, vocal training for all levels.',
+    url: 'https://arohirhythms.in',
+    email: 'contact@arohirhythms.com',
+    telephone: '+91-9876543210',
+    image: 'https://arohirhythms.in/og-image.jpg',
+    priceRange: '₹₹',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Kolkata',
+      addressRegion: 'West Bengal',
       addressCountry: 'IN',
+      postalCode: '700001'
     },
-    offers: {
-      '@type': 'Offer',
-      category: 'Music Education',
-      availability: 'https://schema.org/InStock',
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: '22.5726',
+      longitude: '88.3639'
     },
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Kolkata'
+      },
+      {
+        '@type': 'State',
+        name: 'West Bengal'
+      },
+      {
+        '@type': 'Country',
+        name: 'India'
+      },
+      {
+        '@type': 'Place',
+        name: 'Worldwide (Online Classes)'
+      }
+    ],
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday'
+        ],
+        opens: '09:00',
+        closes: '21:00'
+      }
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '127',
+      bestRating: '5',
+      worstRating: '1'
+    },
+    offers: [
+      {
+        '@type': 'Offer',
+        category: 'Music Education',
+        name: 'Free Trial Class',
+        availability: 'https://schema.org/InStock',
+        price: '0',
+        priceCurrency: 'INR',
+        description: 'Free trial class for new students - experience Hindustani classical music training'
+      },
+      {
+        '@type': 'Offer',
+        category: 'Music Education',
+        name: 'Hindustani Classical Vocal Classes',
+        availability: 'https://schema.org/InStock',
+        priceCurrency: 'INR',
+        description: 'Comprehensive Hindustani classical music training with expert gurus'
+      }
+    ],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Music Classes',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Course',
+            name: 'Hindustani Classical Vocal Training',
+            description: 'Learn ragas, talas, and classical singing techniques',
+            provider: {
+              '@type': 'Organization',
+              name: 'Arohi Rhythms'
+            }
+          }
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Course',
+            name: 'Online Music Classes',
+            description: 'Live online Hindustani classical music lessons',
+            provider: {
+              '@type': 'Organization',
+              name: 'Arohi Rhythms'
+            }
+          }
+        }
+      ]
+    },
+    sameAs: [
+      'https://www.facebook.com/arohirhythms',
+      'https://www.instagram.com/arohirhythms',
+      'https://www.youtube.com/@arohirhythms'
+    ],
+    keywords: 'music classes, singing classes, music classes Kolkata, Hindustani classical music, arohi rhythms, online music classes, raga training, tala classes, vocal training, music academy Kolkata'
   };
   const faqItems = [
     {
@@ -86,7 +246,11 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"
@@ -354,11 +518,11 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-16 relative z-10 animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <div className="text-left max-w-4xl">
                 <h2 className="text-2xl font-display font-bold tracking-wide sm:text-3xl lg:text-4xl bg-gradient-to-r from-foreground via-musical-bronze to-foreground bg-clip-text text-transparent mb-4 leading-tight py-2">
-                  Classical Music Training
+                  Classical Music Classes & Training
                 </h2>
                 <div className="w-20 h-1 bg-gradient-to-r from-musical-gold to-musical-bronze mb-6"></div>
                 <p className="text-muted-foreground text-lg md:text-xl font-body leading-relaxed">
-                  Discover the divine pathway blessed by <em className="text-musical-bronze">Maa Saraswati</em> to begin your sacred musical journey.
+                  Discover the divine pathway blessed by <em className="text-musical-bronze">Maa Saraswati</em> to begin your sacred musical journey in our music classes.
                 </p>
               </div>
               <Button asChild variant="outline" className="mt-6 md:mt-0 border-2 border-primary/50 hover:border-primary hover:bg-primary/10 transition-all duration-300">

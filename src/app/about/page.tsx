@@ -4,9 +4,24 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Us | Best Classical Music Academy Kolkata | Arohi Rhythms',
-  description: 'Top Hindustani classical music school in Kolkata. Guru-shishya parampara tradition. Expert vocal training, raga & tala classes. Online & offline music lessons. Join our musical family.',
-  keywords: ['best music academy kolkata', 'classical music school', 'hindustani music teacher', 'guru shishya parampara', 'music classes kolkata'],
+  title: 'About Arohi Rhythms | Best Music Academy Kolkata | Classical Music School',
+  description: 'Arohi Rhythms - Top Hindustani classical music academy in Kolkata. Learn from expert gurus in guru-shishya parampara tradition. Best vocal training, raga & tala classes. Online & offline music lessons. Join our musical family.',
+  keywords: [
+    'arohi rhythms',
+    'arohi rhythms kolkata',
+    'best music academy kolkata',
+    'music academy kolkata',
+    'classical music school',
+    'classical music school kolkata',
+    'hindustani music teacher',
+    'music teacher kolkata',
+    'guru shishya parampara',
+    'music classes kolkata',
+    'best music school kolkata',
+    'music academy india',
+    'vocal training kolkata',
+    'about arohi rhythms'
+  ],
   openGraph: {
     title: 'About Arohi Rhythms | Classical Music Academy Kolkata',
     description: 'Best Hindustani classical music school in Kolkata with guru-shishya tradition',
@@ -19,9 +34,9 @@ export default function AboutPage() {
     <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24 bg-gradient-to-b from-musical-cream/50 via-background to-musical-cream/30 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 text-8xl text-musical-gold musical-float">♪</div>
-        <div className="absolute top-40 right-20 text-6xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
-        <div className="absolute bottom-32 left-1/4 text-7xl text-musical-gold musical-float" style={{animationDelay: '4s'}}>♪</div>
-        <div className="absolute bottom-20 right-1/3 text-5xl text-musical-bronze musical-float" style={{animationDelay: '3s'}}>♫</div>
+        <div className="absolute top-40 right-20 text-6xl text-musical-bronze musical-float" style={{ animationDelay: '2s' }}>♫</div>
+        <div className="absolute bottom-32 left-1/4 text-7xl text-musical-gold musical-float" style={{ animationDelay: '4s' }}>♪</div>
+        <div className="absolute bottom-20 right-1/3 text-5xl text-musical-bronze musical-float" style={{ animationDelay: '3s' }}>♫</div>
       </div>
       <div className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto space-y-10 md:space-y-12 lg:space-y-16">
@@ -95,7 +110,7 @@ export default function AboutPage() {
                 <div className="absolute top-2 right-2 text-4xl text-musical-bronze/10 group-hover:text-musical-bronze/20 transition-colors">♫</div>
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{animationDelay: '0.5s'}}>
+                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{ animationDelay: '0.5s' }}>
                       <Sparkles className="h-8 w-8 text-primary" />
                     </div>
                     <CardTitle className="font-display text-xl">Divine Learning Paths</CardTitle>
@@ -112,7 +127,7 @@ export default function AboutPage() {
                 <div className="absolute top-2 right-2 text-4xl text-musical-gold/10 group-hover:text-musical-gold/20 transition-colors">♪</div>
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{animationDelay: '1s'}}>
+                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{ animationDelay: '1s' }}>
                       <Users className="h-8 w-8 text-primary" />
                     </div>
                     <CardTitle className="font-display text-xl">Universal Musical Embrace</CardTitle>
@@ -129,7 +144,7 @@ export default function AboutPage() {
                 <div className="absolute top-2 right-2 text-4xl text-musical-bronze/10 group-hover:text-musical-bronze/20 transition-colors">♫</div>
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{animationDelay: '1.5s'}}>
+                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{ animationDelay: '1.5s' }}>
                       <Calendar className="h-8 w-8 text-primary" />
                     </div>
                     <CardTitle className="font-display text-xl">Sacred Performance Platforms</CardTitle>
@@ -147,7 +162,7 @@ export default function AboutPage() {
                 <div className="absolute bottom-4 left-4 text-5xl text-musical-bronze/10 group-hover:text-musical-bronze/20 transition-colors">♫</div>
                 <CardHeader>
                   <div className="flex items-center gap-4">
-                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{animationDelay: '2s'}}>
+                    <div className="group-hover:scale-110 transition-transform musical-pulse" style={{ animationDelay: '2s' }}>
                       <Music className="h-9 w-9 text-primary" />
                     </div>
                     <CardTitle className="font-display text-2xl">A Sacred Musical Sangam</CardTitle>

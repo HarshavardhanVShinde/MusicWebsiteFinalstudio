@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
 import logoImage from '@/components/logo-website.png';
 
 export function Footer() {
@@ -8,22 +8,22 @@ export function Footer() {
     <footer className="border-t border-musical-gold/20 bg-gradient-to-b from-musical-cream/50 via-card to-secondary/30 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-8 left-16 text-6xl text-musical-gold musical-float">♪</div>
-        <div className="absolute bottom-12 right-20 text-5xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
-        <div className="absolute top-20 right-1/3 text-4xl text-musical-gold musical-float" style={{animationDelay: '4s'}}>♪</div>
+        <div className="absolute bottom-12 right-20 text-5xl text-musical-bronze musical-float" style={{ animationDelay: '2s' }}>♫</div>
+        <div className="absolute top-20 right-1/3 text-4xl text-musical-gold musical-float" style={{ animationDelay: '4s' }}>♪</div>
       </div>
       <div className="container max-w-screen-2xl py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10 lg:gap-12">
           <div className="flex flex-col gap-4 lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 group">
               <div className="relative w-12 h-12 bg-transparent">
-                  <Image
-                    src={logoImage}
-                    alt="Arohi Rhythms"
-                    fill
-                    sizes="48px"
-                    className="object-contain bg-transparent transition-transform group-hover:scale-110"
-                  />
-                </div>
+                <Image
+                  src={logoImage}
+                  alt="Arohi Rhythms"
+                  fill
+                  sizes="48px"
+                  className="object-contain bg-transparent transition-transform group-hover:scale-110"
+                />
+              </div>
               <span className="text-2xl font-bold font-display bg-gradient-to-r from-musical-gold via-primary to-musical-bronze bg-clip-text text-transparent">
                 Arohi Rhythms
               </span>
@@ -32,7 +32,7 @@ export function Footer() {
               Nurturing musical souls through the sacred art of <em className="text-musical-bronze">Hindustani classical music</em> and the timeless tradition of personalized <strong>guru-shishya</strong> guidance.
             </p>
           </div>
-          
+
           <div>
             <h3 className="font-display font-semibold mb-6 text-lg text-musical-bronze">Sacred Pathways</h3>
             <ul className="space-y-2.5">
@@ -42,13 +42,13 @@ export function Footer() {
               <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-musical-gold transition-all hover:translate-x-1 inline-block font-body flex items-center gap-2"><span className="text-musical-bronze/50">♫</span> Contact</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-display font-semibold mb-6 text-lg text-musical-bronze">Connect With Us</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 text-musical-gold mt-0.5 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-sm text-muted-foreground hover:text-musical-gold transition-colors font-body">(123) 456-7890</a>
+                <a href="tel:+919474010622" className="text-sm text-muted-foreground hover:text-musical-gold transition-colors font-body">+91 9474010622</a>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 text-musical-bronze mt-0.5 flex-shrink-0" />
@@ -60,21 +60,18 @@ export function Footer() {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="font-display font-semibold mb-6 text-lg text-musical-bronze">Musical Community</h3>
             <div className="flex flex-wrap gap-3 mb-4">
-              <Link href="#" aria-label="Facebook" className="p-3 rounded-full bg-musical-gold/10 hover:bg-musical-gold hover:text-white transition-all hover:scale-110 musical-pulse">
+              <Link href="https://www.facebook.com/share/16SBviGMWA/" aria-label="Facebook" className="p-3 rounded-full bg-musical-gold/10 hover:bg-musical-gold hover:text-white transition-all hover:scale-110 musical-pulse">
                 <Facebook className="h-5 w-5" />
               </Link>
-              <Link href="#" aria-label="Instagram" className="p-3 rounded-full bg-musical-bronze/10 hover:bg-musical-bronze hover:text-white transition-all hover:scale-110 musical-pulse" style={{animationDelay: '0.5s'}}>
+              <Link href="https://www.instagram.com/shreyasadhumusical?igsh=N3k4bmZ3eWYwNml0" aria-label="Instagram" className="p-3 rounded-full bg-musical-bronze/10 hover:bg-musical-bronze hover:text-white transition-all hover:scale-110 musical-pulse" style={{ animationDelay: '0.5s' }}>
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" aria-label="YouTube" className="p-3 rounded-full bg-musical-gold/10 hover:bg-musical-gold hover:text-white transition-all hover:scale-110 musical-pulse" style={{animationDelay: '1s'}}>
+              <Link href="https://youtube.com/@shreyasadhumusical4670?si=siamP5kfc_BmfOET" aria-label="YouTube" className="p-3 rounded-full bg-musical-gold/10 hover:bg-musical-gold hover:text-white transition-all hover:scale-110 musical-pulse" style={{ animationDelay: '1s' }}>
                 <Youtube className="h-5 w-5" />
-              </Link>
-              <Link href="#" aria-label="Twitter" className="p-3 rounded-full bg-musical-bronze/10 hover:bg-musical-bronze hover:text-white transition-all hover:scale-110 musical-pulse" style={{animationDelay: '1.5s'}}>
-                <Twitter className="h-5 w-5" />
               </Link>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed font-body">
@@ -82,7 +79,7 @@ export function Footer() {
             </p>
           </div>
         </div>
-        
+
         <div className="mt-10 md:mt-12 lg:mt-16 pt-6 md:pt-8 border-t border-musical-gold/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground text-center md:text-left font-body">

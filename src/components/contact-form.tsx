@@ -53,7 +53,7 @@ export function ContactForm() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
-    
+
     try {
       // Send directly to Formspark (they support browser submissions). This avoids a serverless
       // function and simplifies deployment to platforms like Cloudflare Pages.
@@ -103,8 +103,8 @@ export function ContactForm() {
       </CardHeader>
       <CardContent>
         <Form {...form}>
-          <form 
-            onSubmit={form.handleSubmit(onSubmit)} 
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
             className="space-y-6"
             acceptCharset="UTF-8"
             data-formpark-verify
@@ -116,7 +116,7 @@ export function ContactForm() {
                 <FormItem>
                   <FormLabel>Full Name</FormLabel>
                   <FormControl>
-                    <Input placeholder="John Doe" {...field} />
+                    <Input placeholder="Shreya Sadhu" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -129,20 +129,20 @@ export function ContactForm() {
                 <FormItem>
                   <FormLabel>Email Address</FormLabel>
                   <FormControl>
-                    <Input placeholder="john.doe@example.com" {...field} />
+                    <Input placeholder="shreya.sadhu@gmail.com" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
               )}
             />
-             <FormField
+            <FormField
               control={form.control}
               name="phone"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Phone Number (Optional)</FormLabel>
                   <FormControl>
-                    <Input placeholder="(123) 456-7890" {...field} />
+                    <Input placeholder="+91 9474010622" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

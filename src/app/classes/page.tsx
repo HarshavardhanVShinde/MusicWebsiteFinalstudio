@@ -8,9 +8,30 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const metadata = {
-  title: 'Hindustani Classical Music Classes | Raga Tala Training Online | Arohi Rhythms',
-  description: 'Online Hindustani classical singing classes. Learn ragas, talas, dhrupad, khayal, thumri. Beginner to advanced vocal training. Expert teachers. Enroll now for free trial.',
-  keywords: ['hindustani classical music classes', 'raga training online', 'tala classes', 'vocal music lessons', 'classical singing course', 'dhrupad khayal training', 'online music classes india'],
+  title: 'Music Classes | Arohi Rhythms Kolkata | Hindustani Classical Vocal Training Online',
+  description: 'Best music classes at Arohi Rhythms Kolkata & online. Learn Hindustani classical singing - ragas, talas, dhrupad, khayal, thumri. Beginner to advanced vocal training. Expert teachers. Free trial class.',
+  keywords: [
+    'music classes',
+    'singing classes',
+    'music classes kolkata',
+    'classical music classes',
+    'hindustani classical music classes',
+    'arohi rhythms classes',
+    'vocal music classes',
+    'raga training online',
+    'raga classes',
+    'tala classes',
+    'tala training',
+    'vocal music lessons',
+    'classical singing course',
+    'classical singing classes kolkata',
+    'dhrupad khayal training',
+    'thumri classes',
+    'online music classes india',
+    'music school kolkata',
+    'best music classes india',
+    'hindustani vocal training'
+  ],
   openGraph: {
     title: 'Hindustani Classical Music Classes | Raga Tala Training',
     description: 'Learn ragas, talas, dhrupad, khayal online. Expert Hindustani classical training',
@@ -24,10 +45,10 @@ export default function ClassesPage() {
   return (
     <div className="min-h-screen pt-20 pb-12 md:pt-24 lg:pt-32 md:pb-16 lg:pb-24 bg-gradient-to-b from-background via-musical-cream/40 to-secondary/30 relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-16 right-16 text-9xl text-musical-gold musical-float" style={{animationDelay: '1s'}}>♪</div>
-        <div className="absolute bottom-24 left-12 text-7xl text-musical-bronze musical-float" style={{animationDelay: '3s'}}>♫</div>
-        <div className="absolute top-1/3 left-1/4 text-6xl text-musical-gold musical-float" style={{animationDelay: '5s'}}>♪</div>
-        <div className="absolute bottom-1/3 right-1/4 text-8xl text-musical-bronze musical-float" style={{animationDelay: '2s'}}>♫</div>
+        <div className="absolute top-16 right-16 text-9xl text-musical-gold musical-float" style={{ animationDelay: '1s' }}>♪</div>
+        <div className="absolute bottom-24 left-12 text-7xl text-musical-bronze musical-float" style={{ animationDelay: '3s' }}>♫</div>
+        <div className="absolute top-1/3 left-1/4 text-6xl text-musical-gold musical-float" style={{ animationDelay: '5s' }}>♪</div>
+        <div className="absolute bottom-1/3 right-1/4 text-8xl text-musical-bronze musical-float" style={{ animationDelay: '2s' }}>♫</div>
       </div>
       <article className="container max-w-screen-2xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-5xl mx-auto mb-10 md:mb-12 lg:mb-16 space-y-6 md:space-y-8">
@@ -58,6 +79,181 @@ export default function ClassesPage() {
             </div>
           </div>
         )}
+
+        <div className="mb-16">
+          <div className="text-center max-w-4xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-display font-bold bg-gradient-to-r from-musical-gold via-primary to-musical-bronze bg-clip-text text-transparent mb-6">What You'll Learn in Our Classes</h2>
+            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-musical-gold to-transparent mx-auto mb-8"></div>
+            <p className="text-lg text-muted-foreground leading-relaxed font-body">Master the sacred techniques and musical expressions that form the heart of Hindustani classical singing</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000">
+              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-gold">♪</span>
+                  <CardTitle className="font-display text-xl">Raga Foundation</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Master the sacred foundation of Hindustani music through systematic <strong className="text-primary">raga learning and swar practice</strong>. Learn fundamental swaras and understand the intricate structure of ragas.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100">
+              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-bronze">♫</span>
+                  <CardTitle className="font-display text-xl">Palta & Meru Khand</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Develop vocal agility and flexibility through systematic <strong className="text-primary">palta exercises and meru khand patterns</strong>. Build speed, precision, and command over swaras.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
+              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-gold">♪</span>
+                  <CardTitle className="font-display text-xl">Bandish & Compositions</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Learn traditional <strong className="text-primary">bandishes and classical compositions</strong>. Study compositions in various ragas and develop the art of improvisation.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
+              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-bronze">♫</span>
+                  <CardTitle className="font-display text-xl">Swarmalika</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Learn beautiful <strong className="text-primary">melodic patterns and garlands of notes</strong>. Practice intricate note patterns and create flowing melodic lines.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
+              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-gold">♪</span>
+                  <CardTitle className="font-display text-xl">Bollywood Songs</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Master popular <strong className="text-primary">Bollywood melodies</strong> with proper classical technique and contemporary style. From classic to modern hits.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
+              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-bronze">♫</span>
+                  <CardTitle className="font-display text-xl">Modern Bengali Songs</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Explore the rich tradition of <strong className="text-primary">Adhunik Bengali music</strong>. Learn iconic songs that blend classical sensibilities with contemporary themes.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-600">
+              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-gold">♪</span>
+                  <CardTitle className="font-display text-xl">Bhajans (Bengali & Hindi)</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Learn <strong className="text-primary">devotional bhajans</strong> in Bengali and Hindi. Express spiritual devotion through music with traditional and contemporary compositions.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-700">
+              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-bronze">♫</span>
+                  <CardTitle className="font-display text-xl">Rabindra Sangeet</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Master the timeless <strong className="text-primary">compositions of Rabindranath Tagore</strong>. Learn the unique raga-based melodies with authentic Santiniketan style.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-800">
+              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
+              <CardHeader className="pb-4 relative z-10">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-3xl text-musical-gold">♪</span>
+                  <CardTitle className="font-display text-xl">Nazrul Geeti</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent className="relative z-10">
+                <p className="text-muted-foreground leading-relaxed font-body text-sm">
+                  Learn the <strong className="text-primary">revolutionary and romantic compositions of Kazi Nazrul Islam</strong>. Master the distinctive style that blends classical ragas with folk elements.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
+        <Card className="musical-card p-10 mb-16 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
+          <div className="text-center mb-8">
+            <h3 className="text-3xl font-display font-bold text-musical-bronze mb-4">Classical Forms & Traditions</h3>
+            <div className="w-24 h-1 bg-gradient-to-r from-musical-gold to-musical-bronze mx-auto"></div>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-fit mx-auto mb-4">
+                <span className="text-4xl text-primary">♪</span>
+              </div>
+              <h4 className="font-display text-xl font-semibold mb-2">Dhrupad</h4>
+              <p className="text-sm text-muted-foreground font-body">The oldest and most austere form, emphasizing pure notes and spiritual depth through meditative alap.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-fit mx-auto mb-4">
+                <span className="text-4xl text-primary">♫</span>
+              </div>
+              <h4 className="font-display text-xl font-semibold mb-2">Khayal</h4>
+              <p className="text-sm text-muted-foreground font-body">The most popular form allowing creative improvisation while maintaining raga purity and emotional expression.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-fit mx-auto mb-4">
+                <span className="text-4xl text-primary">♪</span>
+              </div>
+              <h4 className="font-display text-xl font-semibold mb-2">Thumri</h4>
+              <p className="text-sm text-muted-foreground font-body">A lighter classical form focusing on romantic and devotional themes with graceful melodic ornamentations.</p>
+            </div>
+          </div>
+        </Card>
+
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-10 lg:gap-12 mb-10 md:mb-12 lg:mb-16">
           <Card className="musical-card p-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
@@ -93,134 +289,7 @@ export default function ClassesPage() {
           </Card>
         </div>
 
-        <Card className="musical-card p-10 mb-16 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-display font-bold text-musical-bronze mb-4">Classical Forms & Traditions</h3>
-            <div className="w-24 h-1 bg-gradient-to-r from-musical-gold to-musical-bronze mx-auto"></div>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-fit mx-auto mb-4">
-                <span className="text-4xl text-primary">♪</span>
-              </div>
-              <h4 className="font-display text-xl font-semibold mb-2">Dhrupad</h4>
-              <p className="text-sm text-muted-foreground font-body">The oldest and most austere form, emphasizing pure notes and spiritual depth through meditative alap.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-fit mx-auto mb-4">
-                <span className="text-4xl text-primary">♫</span>
-              </div>
-              <h4 className="font-display text-xl font-semibold mb-2">Khayal</h4>
-              <p className="text-sm text-muted-foreground font-body">The most popular form allowing creative improvisation while maintaining raga purity and emotional expression.</p>
-            </div>
-            <div className="text-center">
-              <div className="w-fit mx-auto mb-4">
-                <span className="text-4xl text-primary">♪</span>
-              </div>
-              <h4 className="font-display text-xl font-semibold mb-2">Thumri</h4>
-              <p className="text-sm text-muted-foreground font-body">A lighter classical form focusing on romantic and devotional themes with graceful melodic ornamentations.</p>
-            </div>
-          </div>
-        </Card>
 
-        <div className="mb-16">
-          <div className="text-center max-w-4xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-display font-bold bg-gradient-to-r from-musical-gold via-primary to-musical-bronze bg-clip-text text-transparent mb-6">What You'll Learn in Our Classes</h2>
-            <div className="w-32 h-1 bg-gradient-to-r from-transparent via-musical-gold to-transparent mx-auto mb-8"></div>
-            <p className="text-lg text-muted-foreground leading-relaxed font-body">Master the sacred techniques and musical expressions that form the heart of Hindustani classical singing</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000">
-              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-gold">♪</span>
-                  <CardTitle className="font-display text-xl">Palta</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Learn rhythmic patterns and note sequences that enhance your agility and precision. <strong className="text-primary">Paltas</strong> are foundational exercises that build speed, accuracy, and control over the melodic line.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100">
-              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-bronze">♫</span>
-                  <CardTitle className="font-display text-xl">Khayal</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Master the art of <strong className="text-primary">improvisation within structure</strong>. Learn to craft spontaneous melodies while maintaining raga authenticity, exploring both bandish and free exposition.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-gold">♪</span>
-                  <CardTitle className="font-display text-xl">Taan</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Develop lightning-fast vocal passages with melodic integrity. <strong className="text-primary">Taans</strong> are intricate note sequences that showcase your technique while maintaining emotional depth.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-bronze">♫</span>
-                  <CardTitle className="font-display text-xl">Murki & Mirkhand</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Perfect delicate ornamental passages and elaborate melodic phrases. <strong className="text-primary">Murkis and Mirkhands</strong> add grace and sophistication to your vocal expression.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
-              <div className="absolute top-4 right-4 text-5xl text-musical-gold/20">♪</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-gold">♪</span>
-                  <CardTitle className="font-display text-xl">Gaana (Songs)</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Learn classical bandishes and song compositions rooted in raga traditions. Master the lyrical and emotional dimensions of <strong className="text-primary">traditional compositions</strong> passed through generations.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="musical-card hover:-translate-y-2 group relative overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-              <div className="absolute top-4 right-4 text-5xl text-musical-bronze/20">♫</div>
-              <CardHeader className="pb-4 relative z-10">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-3xl text-musical-bronze">♫</span>
-                  <CardTitle className="font-display text-xl">Bhajan</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent className="relative z-10">
-                <p className="text-muted-foreground leading-relaxed font-body text-sm">
-                  Explore devotional music that connects technique with spirituality. Learn <strong className="text-primary">devotional expressions</strong> that blend classical rigor with heartfelt emotion and sacred intent.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
 
         <div className="text-center">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 shadow-lg font-semibold transition-all duration-300">
