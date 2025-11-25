@@ -25,6 +25,19 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${classInfo.name} - Arohi Rhythms`,
     description: classInfo.description,
+    openGraph: {
+      title: `${classInfo.name} - Arohi Rhythms`,
+      description: classInfo.description,
+      url: `https://arohirhythms.in/classes/${classInfo.slug}`,
+      images: [
+        {
+          url: `/og-image.jpg`, // Fallback or dynamic if available
+          width: 1200,
+          height: 630,
+          alt: classInfo.name,
+        },
+      ],
+    },
   };
 }
 
@@ -77,10 +90,10 @@ export default function ClassDetailPage({ params }: Props) {
                   <span className="text-sm md:text-base text-muted-foreground">{classInfo.schedule}</span>
                 </div>
                 {instructor && (
-                    <div className="flex items-center gap-3 md:gap-4 p-3 rounded-lg bg-primary/5">
-                        <User className="h-5 w-5 text-primary flex-shrink-0" />
-                        <span className="text-sm md:text-base text-muted-foreground">With {instructor.name}</span>
-                    </div>
+                  <div className="flex items-center gap-3 md:gap-4 p-3 rounded-lg bg-primary/5">
+                    <User className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-sm md:text-base text-muted-foreground">With {instructor.name}</span>
+                  </div>
                 )}
               </CardContent>
             </Card>
@@ -93,7 +106,7 @@ export default function ClassDetailPage({ params }: Props) {
                 <CardContent className="flex items-center gap-3 md:gap-4">
                   {instructorImage && (
                     <Avatar className="h-16 w-16 md:h-20 md:w-20 border-2 border-primary/20 flex-shrink-0">
-                      <AvatarImage src={instructorImage.imageUrl} alt={instructor.name} data-ai-hint={instructorImage.imageHint}/>
+                      <AvatarImage src={instructorImage.imageUrl} alt={instructor.name} data-ai-hint={instructorImage.imageHint} />
                       <AvatarFallback>{instructor.name.charAt(0)}</AvatarFallback>
                     </Avatar>
                   )}
@@ -106,7 +119,7 @@ export default function ClassDetailPage({ params }: Props) {
             )}
 
             <Button size="lg" className="w-full shadow-lg hover:shadow-xl transition-all hover:scale-105" asChild>
-                <Link href="/contact">Enroll Now</Link>
+              <Link href="/contact">Enroll Now</Link>
             </Button>
           </div>
         </div>
